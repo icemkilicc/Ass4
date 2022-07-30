@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Ciğerci Erdal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+
+    <nav class="navbar">
+        <!-- LOGO -->
+        <img id="logo-image" src="image/ciğerci%20erdal-1.jpg">
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <div class="nav-infos">
+                <ul id="infos-ul">
+                    <li><i class="fa fa-angle-right" style="color: #424242;padding: 5px"></i><a href="">Hakkımızda </a></li>
+                    <li><i class="fa fa-angle-right"style="color: #424242;padding: 5px"></i><a href="/">İletişimBilgilerimiz</a></li>
+                    <li><i class="fa fa-phone"style="color: #424242;padding: 5px"></i><a href="/">05061728678 </a></li>
+                </ul>
+            </div>
+            <!-- NAVIGATION MENUS -->
+            <div class="menu" >
+                <li><a href="index.html">ANASAYFA</a></li>
+                <li><a href="products.html">ÜRÜNLER</a></li>
+                <li class="services">
+                    <a href="aboutus.html">HAKIMIZDA</a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="dropdown">
+                        <li><a href="/">Dropdown 1 </a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 2</a></li>
+                        <li><a href="/">Dropdown 3</a></li>
+                        <li><a href="/">Dropdown 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="branches.html">ŞUBELER</a></li>
+                <li><a href="images.html">GALERİ</a></li>
+                <li><a href="communication.html">İLETİŞİM</a></li>
+            </div>
+        </ul>
+        <div class="icons" style="display: inline-flex;flex-direction: column;margin-bottom: 60px;margin-right: 10px">
+            <a href="https://www.facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/search?q=%23Altın&src=trend_click&vertical=trends">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/accounts/login/?next=/explore/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </nav>
+</header>
+
+//slide
+
+<div class="slider">
+    <!-- fade css -->
+    <div class="myslide fade">
+        <div class="txt">
+            <h1>CİĞERCİ ERDAL</h1>
+            <p>YENİ BİR TAT YENİ BİR LEZZET</p>
+        </div>
+        <img src="image/image1.jpeg" style="width: 100%; height: 100%;">
+    </div>
+
+    <div class="myslide fade">
+        <div class="txt">
+            <h1>CİĞERCİ ERDAL</h1>
+            <p>YENİ BİR TAT YENİ BİR LEZZET</p>
+        </div>
+        <img src="image/image2.jpg" style="width: 100%; height: 100%;">
+    </div>
+
+    <div class="myslide fade">
+        <div class="txt">
+            <h1>CİĞERCİ ERDAL</h1>
+            <p>YENİ BİR TAT YENİ BİR LEZZET</p>
+        </div>
+        <img src="image/image3.jpg" style="width: 100%; height: 100%;">
+    </div>
+
+    <div class="myslide fade">
+        <div class="txt">
+            <h1>CİĞERCİ ERDAL</h1>
+            <p>YENİ BİR TAT YENİ BİR LEZZET</p>
+        </div>
+        <img src="img4.jpg" style="width: 100%; height: 100%;">
+    </div>
+
+    <div class="myslide fade">
+        <div class="txt">
+            <h1>CİĞERCİ ERDAL</h1>
+            <p>YENİ BİR TAT YENİ BİR LEZZET</p>
+        </div>
+        <img src="img5.jpg" style="width: 100%; height: 100%;">
+    </div>
+    <!-- /fade css -->
+
+    <!-- onclick js -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="dotsbox" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+    <!-- /onclick js -->
+</div>
+
+<!--quick acces to main page-->
+<div class="part2">
+    <button class="btn">Ciğerci Erdalın Lezzetleriyle Tanışmak İçin Tıklayınız</button>
+</div>
+
+<!-------menu--------->
+
+
+<div class="hover01 column">
+    <div>
+        <figure><img src="https://picsum.photos/300/200?image=244"  /></figure>
+    </div>
+    <div>
+        <figure><img src="https://picsum.photos/300/200?image=1024" /></figure>
+    </div>
+    <div>
+        <figure><img src="https://picsum.photos/300/200?image=611" /></figure>
+    </div>
+    <div>
+        <figure><img src="https://picsum.photos/300/200?image=611" /></figure>
+    </div>
+</div>
+
+<hr style="border: 0;
+    margin-top: 50px;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
+
+
+<section class="explanation" id="explanation-id">
+    <div class="clients">
+        <div class ="client">
+            <h1><i class="fa fa-users" style="color: red"></i>Hizmetlerimiz</h1>
+            <p><em>Döner yemeye tereddüt eden lezzet severlerin kaygısı, hijyenden malzeme seçimine kadar uluslararası standartlarda hizmet veriyoruz.</em></p>
+        </div>
+        <div class ="client">
+            <h1><i class="fa fa-film" style="color: red"></i>Nerelerdeyiz</h1>
+            <p>Tatbak Döner olarak Gaziantep'te halkımıza 2 şubemiz ile hizmet vermekteyiz.</p>
+        </div>
+        <div class ="client">
+            <h1><i class="fa fa-bars" style="color: red"></i>İletişim</h1>
+            <p>Merkez şube Gazimuhtarpaşa Bulvarında bulunmaktadır. 2. Şubemiz ise Üniversite bulvarında hizmet vermektedir.<p>
+        </div>
+    </div>
+</section>
+
+<hr style="border: 0;
+    margin-top: 50px;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);">
+
+<section class="intro" id="intro-id">
+    <div class="intro-div1">
+        <div class ="writing">
+            <p style="font-size: 20px">Tatbak İskendrun Döner, Gaziantep'de dönerin markası olmak ve Türk mutfağını temsil eden dönere hak ettiği değeri vermek amacıyla 2011 yılında yola çıktı. Herkesin çok sevdiği İskenderun dönerini Gaziantep halkının beğenisine sundu. Gaziantep'in geniş ve güçlü yemekleri ile yarışan Tatbak Döner, şık konsepti, eşsiz döneri ve uygun fiyat politikasıyla, Antep halkının büyük beğenisini toplayarak kısa zamanda müşterilerini Tatbak döner’e abone yaptı. Döner yemeye tereddüt eden lezzet severlerin kaygısı, hijyenden malzeme seçimine kadar uluslar arası standartlarda hizmet veren Tatbak Döner ile son buldu.</p>
+            <video width="500px"
+                   controls="controls"/>
+
+            <source src="image/video.mp4"
+                    type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+
+<div class="center">
+    <h3>İskenderun Dönerinin Eşsiz Lezzetini<strong> Tatbak Dönerde </strong> tatmak için <strong> hemen </strong>
+        <button class="butoon" style="">Tıklayınız</button></h3>
+</div>
+
+
+<script src="jsfile.js"></script>
+<script>
+    window.addEventListener('scroll', function () {
+        let header = document.querySelector('header');
+        let windowPosition = window.scrollY > 0;
+        header.classList.toggle('scrolling-active', windowPosition);
+        document.getElementById("logo-image").style.transition = "0.5s";
+        document.getElementById("logo-image").style.height = "65px";
+
+    })
+</script>
+</body>
+
+<footer>
+    <section class="footer">
+        <section class="finish" >
+            <div class="finish-div1">
+                <div class ="series">
+                    <h1>Hakkımızda</h1><br>
+                    <p>Tatbak İskendrun Döner, Gaziantep'de dönerin markası olmak ve Türk mutfağını temsil eden dönere hak ettiği değeri vermek amacıyla 2011 yılında yola çıktı.</p>
+                </div>
+                <div class ="series">
+                    <h1>Menu Çeşitler</h1><br>
+                    <ul>
+                        <li><a href="/">Tavuk Zurna </a></li>
+                        <li><a href="/">Tavuk Psikopat </a></li>
+                        <li><a href="/">Et Psikopat </a></li>
+                    </ul>
+                </div>
+                <div class ="series">
+                    <h1>İletişim Bilgileri</h1><br>
+                    <li><a href="/">Adres: Gazimuhtarpaşa Bulvarı Kepkep İş Merkezi Altı </a></li>
+                    <li><a href="/">Telefon: (342) 215 40 90 </a></li>
+                    <li><a href="/">Email: info@tatbakdoner.com</a></li>
+                </div>
+            </div>
+        </section>
+        <div class="icons">
+            <a href="https://www.facebook.com">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/search?q=%23Altın&src=trend_click&vertical=trends">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/accounts/login/?next=/explore/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+</footer>
+
+</html>
+
+
